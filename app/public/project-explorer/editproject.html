@@ -7,13 +7,13 @@
         </header>
         <nav> 
             <a href="index.html">Home</a>
-             <a href="search.html">Projects</a> 
-             <a href="login.html">Login</a>
+            <a href="search.html">Projects</a> 
+            <a href="login.html">Login</a>
             <a href="register.html">Register</a>
         </nav>
         <main>
             <section>
-            <h3>Project 1</h3>
+            <h2>Project 1</h2>
             <ul>
                 <li>Created by: Jane Doe</li>
                 <li>Date Created: 00/00/0000</li>
@@ -21,20 +21,21 @@
             </ul>
             </section>
             <section>
-            <h3>Edit Project</h3>
-            <form name="editProject" action="/action_page.php" method="get"></form>
-                <label for="Project Name">Project Name:</label> <br> 
+            <h2>Edit Project</h2>
+            <form name="editProject">
+                <label for="name">Project Name:</label> <br> 
                 <input type="text" name="name"/> <br><br>
-                <label for="Project Abstract">Project Abstract:</label> <br>
-                <textarea cols="25" name="abstract"></textarea><br><br>
-                <label for="Authors">Authors:</label><br>
+                <label for="abstract">Project Abstract:</label> <br>
+                <textarea name="abstract"></textarea><br><br>
+                <label for="authors">Authors:</label><br>
                 <input type="text" name="authors"/><br><br>
-                <label for="Tags">Tag(s):</label><br>
+                <label for="tags">Tag(s):</label><br>
                 <input type="text" name="tags"/><br><br>
-                <label for="Upload File">Upload Files</label><br>
+                <label for="projectFile">Upload File</label><br>
                 <input type="file" name="projectFile"/><br><br>
                 <input type="submit"/>
             </form>
             </section>
         </main>
     </body>
+</html>
